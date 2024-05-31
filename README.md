@@ -1,5 +1,6 @@
 # QML_Fin
-Final QNN:# Quantum Machine Learning with Qiskit
+
+#Final QNN:
 
 ## Repository Overview
 
@@ -20,13 +21,6 @@ This repository contains code and resources for building and training a quantum 
 - **Training and Evaluation:**
   - Train the quantum machine learning model using the COBYLA optimizer.
   - Evaluate the model's performance using a confusion matrix.
-
-## Files and Directories
-
-- `data_preparation.py`: Scripts for downloading, cleaning, and preparing financial data.
-- `quantum_circuits.py`: Functions and classes for building quantum circuits, including feature maps and the autoencoder circuit.
-- `training.py`: Code for training the quantum model and evaluating its performance.
-- `Amplitude Encoder.ipynb`: A Jupyter Notebook demonstrating the end-to-end process of preparing data, building quantum circuits, and training the model.
 
 ## Key Functions and Classes
 

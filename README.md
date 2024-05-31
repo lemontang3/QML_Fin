@@ -1,12 +1,12 @@
 # QML_Fin
 
-#Final QNN:
+## Final QNN:
 
-## Repository Overview
+### Repository Overview
 
 This repository contains code and resources for building and training a quantum machine learning model using Qiskit. The primary focus is on creating a quantum autoencoder for feature extraction and applying it to financial data, specifically the S&P 500 index.
 
-## Repository Structure
+### Repository Structure
 
 - **Data Preparation:**
   - Download and preprocess S&P 500 data using the `yfinance` library.
@@ -22,7 +22,7 @@ This repository contains code and resources for building and training a quantum 
   - Train the quantum machine learning model using the COBYLA optimizer.
   - Evaluate the model's performance using a confusion matrix.
 
-## Key Functions and Classes
+### Key Functions and Classes
 
 - `ansatz(num_qubits, depth)`: Creates a parameterized ansatz circuit with specified depth.
 - `auto_encoder_circuit(num_latent, num_trash, depth)`: Constructs a quantum autoencoder circuit.
